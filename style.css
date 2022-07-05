@@ -48,7 +48,7 @@ body{
     display: inline-block;
 }
 .donate-area{
-    margin: 200px auto;
+    margin: 100px auto;
     float: none;
     width: 55%;
     height: 600px;  
@@ -67,7 +67,7 @@ body{
     padding-bottom: 25px;
 }
 .donate-paragraph{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif; 
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -99,7 +99,7 @@ body{
     color: #FF5959;
 }
 .other-amount{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif; 
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -109,12 +109,55 @@ body{
     border-bottom: 1px solid #DADADA;
     padding-bottom: 10px;
 }
+
 .donate-plan{
     margin: 20px auto;
     float: none;
     text-align: center;
     width: 55%;
-    height: 600px;
+    
+}
+.flexible-container{
+    display: flex;
+    padding: 30px 10px 150px;
+    width: 80%;
+    margin: 20px auto;
+    float: none;
+    height: 352px;
+}
+.box-width{
+    width: 30%;
+    margin-left: 5%;   
+    padding-left: 20px;
+    padding-right: 20px;  
+    
+    border-radius: 5px;
+}
+.box-width img{
+    padding: 70px 0px 60px 5px;
+}
+.box-width h1{
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 800;
+    font-size: 24px;
+    color: #121212;
+}
+.box-width p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    color: #707070;
+}
+#food{
+    background: rgba(79, 157, 166, 0.1);
+}
+#shelter{
+    background: rgba(255, 89, 89, 0.1)
+}
+#education{
+    background: #FFF4D6;
 }
 .my-update{
     margin: 20px auto;
