@@ -1,16 +1,20 @@
 *{margin:0; padding:0}
-body{
-    margin: 0;
-    padding: 0;
-}
+
 .banner-area{
     width: 100%;
     height: 900px;
-    background-image: url("images/donation0.jpg");
+    background-image: url("images/4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     display: inline-block;
+}
+.color-overlay{
+    background: linear-gradient(360deg, #121212 0%, rgba(32, 32, 32, 0) 60%);
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    
 }
 
 .top-banner{   
@@ -21,10 +25,11 @@ body{
 .top-banner h1{
     text-align: center;
     font-family: 'Inter', sans-serif;    
-    font-weight: 800;
+    font-weight: 900;
     font-size: 75px;
     line-height: 79px;
-    color: white;
+    color: rgb(254, 252, 252);
+    -webkit-text-stroke: 2px black;
 }
 .top-banner h3{
     font-family: 'Poppins', sans-serif; 
@@ -39,7 +44,7 @@ body{
     background: #FF5959;
     text-decoration: none;
     border-radius: 5px;
-    margin: 30px 350px;
+    margin: 30px 40%;
     padding: 16px 12px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -48,10 +53,10 @@ body{
     display: inline-block;
 }
 .donate-area{
-    margin: 100px auto;
-    float: none;
-    width: 55%;
-    height: 600px;  
+    margin: 100px 15%;
+    width: 70%;
+    height: 600px;
+    display: inline-block;  
 }
 .donate-today{
     text-align: center;
@@ -114,8 +119,7 @@ body{
     margin: 20px auto;
     float: none;
     text-align: center;
-    width: 55%;
-    
+    width: 55%;  
 }
 .flexible-container{
     display: flex;
