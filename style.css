@@ -18,9 +18,7 @@
 }
 
 .top-banner{   
-    margin: 15% 22%;
-    padding: auto;
-    
+    margin: 15%;
 }
 .top-banner h1{
     text-align: center;
@@ -28,7 +26,7 @@
     font-weight: 900;
     font-size: 75px;
     line-height: 79px;
-    color: rgb(254, 252, 252);
+    color: rgb(252, 248, 248);
     -webkit-text-stroke: 2px black;
 }
 .top-banner h3{
@@ -51,6 +49,10 @@
     font-size: 20px;
     color: white;
     display: inline-block;
+}
+.anchor-button:hover{
+    background: yellowgreen;
+    color: aliceblue;
 }
 .donate-area{
     margin: 100px 15%;
@@ -97,11 +99,15 @@
     padding: 10px;
 }
 #selected{
-    background: #FFEEEE;
+    background: #eeffee;
     border: 3px solid #FF5959;
     border-radius: 5px;
     padding: 40px 20px;
     color: #FF5959;
+}
+#selected:hover{
+    background: rgb(252, 252, 93);
+    color: black;
 }
 .other-amount{
     font-family: 'Poppins', sans-serif; 
@@ -114,7 +120,6 @@
     border-bottom: 1px solid #DADADA;
     padding-bottom: 10px;
 }
-
 .donate-plan{
     margin: 20px auto;
     float: none;
@@ -211,6 +216,10 @@
     font-size: 20px;
     color: white;
     display: inline-block;
+}
+.contribute-button:hover{
+    background: rgb(252, 252, 93);
+    color: black;
 
 }
 .my-update{
