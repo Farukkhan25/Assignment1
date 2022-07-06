@@ -1,5 +1,4 @@
 *{margin:0; padding:0}
-
 .banner-area{
     width: 100%;
     height: 900px;
@@ -16,7 +15,6 @@
     position: absolute;
     
 }
-
 .top-banner{   
     margin: 15%;
 }
@@ -85,7 +83,6 @@
     margin: 20px auto;
     float: none;
 }
-
 .amount li{
     display: inline-block;
     font-family: 'Inter', sans-serif;
@@ -220,7 +217,6 @@
 .contribute-button:hover{
     background: rgb(252, 252, 93);
     color: black;
-
 }
 .my-update{
     margin: 20px auto;
@@ -252,6 +248,11 @@
     height: 52px;
     left: 780px;
     top: 3518px;
+}
+#subscribe:hover{
+    background: yellowgreen;
+    color: white;
+    font-size: larger;
 }
 footer{
     text-align: center;
